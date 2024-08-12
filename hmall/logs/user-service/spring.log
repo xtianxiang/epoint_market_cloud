@@ -1,0 +1,38 @@
+01:51:40:926  INFO 42076 --- [nacos-grpc-client-executor-10153] com.alibaba.nacos.common.remote.client   : [edda90c1-1272-4f72-9d4c-ccebb449036f] Receive server push request, request = ClientDetectionRequest, requestId = 128
+01:51:40:937  INFO 42076 --- [nacos-grpc-client-executor-10153] com.alibaba.nacos.common.remote.client   : [edda90c1-1272-4f72-9d4c-ccebb449036f] Ack server push request, request = ClientDetectionRequest, requestId = 128
+01:51:40:918  INFO 42076 --- [nacos-grpc-client-executor-10158] com.alibaba.nacos.common.remote.client   : [ad9d367b-89bf-47af-9414-08e793e6963f_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 127
+01:51:40:966  INFO 42076 --- [nacos-grpc-client-executor-10158] com.alibaba.nacos.common.remote.client   : [ad9d367b-89bf-47af-9414-08e793e6963f_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 127
+01:52:02:325  WARN 42076 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m24ms442µs700ns).
+10:24:50:640  INFO 42076 --- [nacos-grpc-client-executor-10875] com.alibaba.nacos.common.remote.client   : [edda90c1-1272-4f72-9d4c-ccebb449036f] Receive server push request, request = ClientDetectionRequest, requestId = 131
+10:24:50:640  INFO 42076 --- [nacos-grpc-client-executor-10875] com.alibaba.nacos.common.remote.client   : [edda90c1-1272-4f72-9d4c-ccebb449036f] Ack server push request, request = ClientDetectionRequest, requestId = 131
+10:24:58:443  WARN 42076 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h33m25s898ms981µs401ns).
+14:29:31:242  INFO 42076 --- [nacos-grpc-client-executor-13521] com.alibaba.nacos.common.remote.client   : [edda90c1-1272-4f72-9d4c-ccebb449036f] Receive server push request, request = ClientDetectionRequest, requestId = 140
+14:29:31:243  INFO 42076 --- [nacos-grpc-client-executor-13521] com.alibaba.nacos.common.remote.client   : [edda90c1-1272-4f72-9d4c-ccebb449036f] Ack server push request, request = ClientDetectionRequest, requestId = 140
+14:29:31:313  INFO 42076 --- [nacos-grpc-client-executor-13522] com.alibaba.nacos.common.remote.client   : [ad9d367b-89bf-47af-9414-08e793e6963f_config-0] Receive server push request, request = ClientDetectionRequest, requestId = 139
+14:29:31:313  INFO 42076 --- [nacos-grpc-client-executor-13522] com.alibaba.nacos.common.remote.client   : [ad9d367b-89bf-47af-9414-08e793e6963f_config-0] Ack server push request, request = ClientDetectionRequest, requestId = 139
+14:29:36:253  WARN 42076 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m7s22ms367µs500ns).
+20:29:36:552  WARN 42076 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m29s289ms446µs400ns).
+21:01:24:013 DEBUG 42076 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+21:01:24:015 DEBUG 42076 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+21:01:24:022 DEBUG 42076 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+21:01:57:341 DEBUG 42076 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+21:01:57:345 DEBUG 42076 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+21:01:57:349 DEBUG 42076 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+21:02:07:389 DEBUG 42076 --- [http-nio-8084-exec-6] c.h.u.mapper.AddressMapper.selectList    : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+21:02:07:390 DEBUG 42076 --- [http-nio-8084-exec-6] c.h.u.mapper.AddressMapper.selectList    : ==> Parameters: 1(Long)
+21:02:07:394 DEBUG 42076 --- [http-nio-8084-exec-6] c.h.u.mapper.AddressMapper.selectList    : <==      Total: 4
+21:23:38:290 DEBUG 42076 --- [http-nio-8084-exec-8] c.h.u.mapper.AddressMapper.selectList    : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+21:23:38:290 DEBUG 42076 --- [http-nio-8084-exec-8] c.h.u.mapper.AddressMapper.selectList    : ==> Parameters: 1(Long)
+21:23:38:298 DEBUG 42076 --- [http-nio-8084-exec-8] c.h.u.mapper.AddressMapper.selectList    : <==      Total: 4
+21:54:12:413 DEBUG 42076 --- [http-nio-8084-exec-5] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+21:54:12:413 DEBUG 42076 --- [http-nio-8084-exec-5] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+21:54:12:415 DEBUG 42076 --- [http-nio-8084-exec-5] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+21:54:12:584 DEBUG 42076 --- [http-nio-8084-exec-7] c.h.u.mapper.AddressMapper.selectList    : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+21:54:12:584 DEBUG 42076 --- [http-nio-8084-exec-7] c.h.u.mapper.AddressMapper.selectList    : ==> Parameters: 1(Long)
+21:54:12:586 DEBUG 42076 --- [http-nio-8084-exec-7] c.h.u.mapper.AddressMapper.selectList    : <==      Total: 4
+21:54:23:266 DEBUG 42076 --- [http-nio-8084-exec-10] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+21:54:23:266 DEBUG 42076 --- [http-nio-8084-exec-10] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+21:54:23:270 DEBUG 42076 --- [http-nio-8084-exec-10] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+21:54:23:445 DEBUG 42076 --- [http-nio-8084-exec-1] c.h.u.mapper.AddressMapper.selectList    : ==>  Preparing: SELECT id,user_id,province,city,town,mobile,street,contact,is_default,notes FROM address WHERE (user_id = ?)
+21:54:23:445 DEBUG 42076 --- [http-nio-8084-exec-1] c.h.u.mapper.AddressMapper.selectList    : ==> Parameters: 1(Long)
+21:54:23:448 DEBUG 42076 --- [http-nio-8084-exec-1] c.h.u.mapper.AddressMapper.selectList    : <==      Total: 4

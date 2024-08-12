@@ -1,0 +1,10 @@
+com\hmall\search\domain\query\ItemPageQuery.class
+com\hmall\search\domain\po\Item.class
+com\hmall\search\service\ItemService.class
+com\hmall\search\domain\dto\OrderDetailDTO.class
+com\hmall\search\SearchApplication.class
+com\hmall\search\mapper\ItemMapper.class
+com\hmall\search\controller\ItemController.class
+com\hmall\search\service\impl\ItemServiceImpl.class
+com\hmall\search\controller\SearchController.class
+com\hmall\search\domain\po\ItemDoc.class

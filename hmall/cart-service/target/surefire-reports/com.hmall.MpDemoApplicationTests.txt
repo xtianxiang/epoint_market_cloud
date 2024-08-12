@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.hmall.MpDemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in com.hmall.MpDemoApplicationTests
+contextLoads  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.hmall.MpDemoApplicationTests.contextLoads(MpDemoApplicationTests.java:13)
+

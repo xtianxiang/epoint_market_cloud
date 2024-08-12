@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.hmall.search.SearchApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 105.796 s <<< FAILURE! - in com.hmall.search.SearchApplicationTest
+testQuery  Time elapsed: 30.799 s  <<< ERROR!
+java.net.SocketTimeoutException: 30,000 milliseconds timeout on connection http-outgoing-0 [ACTIVE]
+	at com.hmall.search.SearchApplicationTest.testQuery(SearchApplicationTest.java:87)
+Caused by: java.net.SocketTimeoutException: 30,000 milliseconds timeout on connection http-outgoing-0 [ACTIVE]
+
+testBulkRequest  Time elapsed: 33.08 s  <<< ERROR!
+java.net.SocketTimeoutException: 30,000 milliseconds timeout on connection http-outgoing-1 [ACTIVE]
+	at com.hmall.search.SearchApplicationTest.testBulkRequest(SearchApplicationTest.java:71)
+Caused by: java.net.SocketTimeoutException: 30,000 milliseconds timeout on connection http-outgoing-1 [ACTIVE]
+
+testExistsIndex  Time elapsed: 30.091 s  <<< ERROR!
+java.net.SocketTimeoutException: 30,000 milliseconds timeout on connection http-outgoing-2 [ACTIVE]
+	at com.hmall.search.SearchApplicationTest.testExistsIndex(SearchApplicationTest.java:46)
+Caused by: java.net.SocketTimeoutException: 30,000 milliseconds timeout on connection http-outgoing-2 [ACTIVE]
+
