@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: search-service
+  profiles:
+    active: local
+#  cloud:
+#    nacos:
+#      server-addr: 127.0.0.1:8848
+#      config:
+#        file-extension: yaml
+#        shared-configs:
+#          - dataId: shared-log.yaml # 共享日志配置
+#          - dataId: shared-jdbc.yaml # 共享mybatis配置
+#          - dataId: shared-swagger.yaml # 共享日志配置
+  datasource:
+    url: jdbc:mysql://127.0.0.7:3306/${hm.db.database}?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${hm.db.un:root}
+    password: ${hm.db.pw:123456}
+knife4j:
+  enable: true
+  openapi:
+    title: 黑马商城接口文档
+    description: "黑马商城接口文档"
+    email: zhanghuyi@itcast.cn
+    concat: 虎哥
+    url: https://www.itcast.cn
+    version: v1.0.0
+    group:
+      default:
+        group-name: default
+        api-rule: package
+        api-rule-resources:
+          - com.hmall.controller
